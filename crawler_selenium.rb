@@ -31,7 +31,7 @@ json['creating_draft_items'].each do |item|
       element.click
       element = driver.find_elements(:class,'editorSubmit_dropdownItem')[2]
       element.click
-      submit_element = driver.find_element(:class,'editorSubmit_submitBtnLabel')
+      submit_element = driver.find_element(:class,'editorSubmit_submitBtn')
       submit_element.click
       label_element = driver.find_element(:class,'creatingModal_label')
       label_element.click
