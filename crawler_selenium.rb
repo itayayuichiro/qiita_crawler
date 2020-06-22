@@ -37,6 +37,7 @@ json['creating_draft_items'].each do |item|
       label_element.click
       button_element = driver.find_elements(:class,'btn-primary')[-1]
       button_element.click
-      end
+      sleep 3
+    end
   end
 end
